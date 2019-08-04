@@ -1,0 +1,107 @@
+
+.p-quantify-editor-rewardList {
+	padding-bottom: 100px;
+	.c-activity {
+		&-title {
+			.am-list-body:after {
+				display: none;
+			}
+		}
+		&-info {
+			line-height: 1.8;
+			padding: 9px 15px;
+			color: #999;
+		}
+	}
+	.c-reward {
+		margin-bottom: 10px;
+		> div {
+			margin-top: -1px;
+		}
+	}
+	.c-recordHelper {
+		> div {
+			margin-top: -1px;
+		}
+		&-title {
+			.am-list-body:before {
+				display: none;
+			}
+			a {
+			    font-size: 12px;
+			    background: #ccc;
+			    color: #fff;
+			    padding: 4px 8px;
+			    border-radius: 3px;
+			    margin-left: 20px;
+			    vertical-align: 1px;
+			}
+			a.on {
+				background: #ff5e00;
+			}
+		}
+		&-toggle {
+			.am-list-body:before {
+				display: none;
+			}
+		}
+		&-quick {
+			display: block;
+		}
+	}
+	.c-record-list {
+
+	}
+	.c-record {
+		background: #fff;
+		padding: 14px 15px;
+		padding-right: 50px;
+		position: relative;
+		&-remove {
+			position: absolute;
+		    right: 17px;
+		    top: 22px;
+		    color: #ddd;
+		}
+		&-item {
+			display: flex;
+			align-items: center;
+			border: 1px solid #dadada;
+			border-radius: 6px;
+			overflow: hidden;
+			&-type {
+				width: 36px;
+				height: 36px;
+				line-height: 36px;
+				text-align: center;
+				color: #fff;
+			}
+			&-input {
+				flex: 1;
+				input {
+					width: 100%;
+					outline: none;
+					border: none;
+					height: 36px;
+					line-height: 36px;
+					padding-left: 10px;
+				}
+			}
+		}
+	}
+	.c-addRewardButton {
+		text-align: center;
+		margin-top: 60px;
+		color: #4a7ec0;
+		&-wrapper {
+			margin: 0 auto;
+			display: inline-block;
+			p {
+				margin-top: 6px;
+			}
+		}
+	}
+	.c-footer {
+		background: #fff;
+	}		
+}

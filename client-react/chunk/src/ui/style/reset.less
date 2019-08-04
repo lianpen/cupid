@@ -1,0 +1,145 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box; 
+	touch-action: pan-y; 
+}
+body {
+	line-height: 1.2;    
+	word-wrap: break-word;
+    word-break: break-all;
+}
+
+i {
+	font-style: normal;
+}
+.am-list-item .am-list-line-wrap .am-list-extra {
+	flex: 1;
+}
+.am-list-item .am-list-line .am-list-content {
+	white-space: initial;
+	font-size: 15px;
+}
+.am-list-item .am-input-label {
+	font-size: 15px;
+}
+.am-navbar {
+	position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    right: 0;
+    background: #4a7ec0;
+	color: #fff;
+	.am-navbar-title {
+		color: #fff;
+	}
+    svg {
+    	fill: #fff;
+    }
+}
+.list-view-section-body {
+	// padding-bottom: 50px;
+}
+
+.am-list-view-scrollview {
+	-webkit-overflow-scrolling: touch;
+}
+
+.am-checkbox-halfChecked {
+	.am-checkbox-inner {
+		border-color: #4a7ec0;
+		&:before {
+			content: '';
+			position: absolute;
+			width: 7px;
+			height: 7px;
+			border-radius: 50%;
+			top: 6px;
+			left: 6px;
+			background: #4a7ec0;
+		}
+	}
+}
+
+.am-list-body {
+	overflow: hidden;
+}
+
+.am-carousel-wrap-dot {
+	> span {
+		background-color: rgba(255, 255, 255, 0.4);
+		width: 6px;
+		height: 6px;
+	}
+	&-active {
+		> span {
+			width: 16px;
+			border-radius: 25px;
+			background-color: rgba(255, 255, 255, 1);
+		}
+	}
+}
+
+.am-list-item .am-list-line .am-list-extra,
+.am-textarea-control textarea {
+	font-size: 15px
+}
+
+.p-rank-index,
+.p_anouncement_index,
+.p_myCheck_index {
+	.shared-bottomSubmit{
+		.am-flexbox-item {
+			padding: 4px;
+			position: relative;
+			&:after {
+				content: '';
+		        position: absolute;
+		        background-color: #ddd;
+		        display: block;
+		        z-index: 1;
+		        top: 0;
+		        right: 0;
+		        bottom: auto;
+		        left: auto;
+		        width: 1px;
+		        height: 100%;
+		        transform-origin: 50% 50%;
+		        transform: scaleY(0.5);
+			}
+			&:last-child {
+				&:after {
+					height: 0;
+				}
+			}
+			&.active {
+				color: #4a7ec0;
+			}
+		}
+	}
+	.am-flexbox {
+		&.am-flexbox-align-center{
+			width: 100%;
+			text-align: center;
+		}
+	}
+	.am-list-extra {
+		margin-right: 15px;
+	}
+}
+.am-badge-text {
+    margin-right: 12px;
+    padding: 0 3px;
+    border-radius: 2px;
+}
+.am-list-item .am-list-line .am-list-brief {
+    white-space: pre-wrap;
+}
+.myCheck-detail-check_modal.am-modal-transparent {
+	.am-modal-content .am-modal-body {
+		padding: 0 15px;
+		margin-bottom: -1px;
+	}
+}

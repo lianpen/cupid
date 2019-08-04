@@ -1,0 +1,9 @@
+node_modules
+node_report
+chunk/env.js
+.idea
+.vscode/settings.json
+package-lock.json
+.vscode/launch.json
+npm-debug.log 
+chunk/webpack.config.js

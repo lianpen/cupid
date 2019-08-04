@@ -1,0 +1,16 @@
+
+1212
+
+123324
+<ul>
+{% for questionnaire in list %}
+	<li>
+		<h3>
+			{{ questionnaire.abstract }}
+		</h3>
+		<p>
+			{{ questionnaire.author_name }}
+		</p>
+	</li>
+{% endfor %}
+</ul>

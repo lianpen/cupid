@@ -1,0 +1,84 @@
+.shared-list {
+	&.active {
+		.am-list-content {
+			color: #4a7ec0;
+			>span {
+				color: #4a7ec0;
+			}
+		}
+		.am-list-extra {
+			color: #4a7ec0;
+		}
+	}
+	.am-list-content {
+		padding-left: 30px;
+		position: relative;
+		.am-list-brief {
+			margin-top: 0;
+		}
+	}
+	&-lf {
+		position: absolute;
+		left: 0;
+	}
+	&-hd {
+		font-size: 15px;
+		color: #a1a1a1;
+		.am-badge {
+			float: right;
+			.am-badge-text {
+				margin-right: 0
+			}
+		}
+	}
+	&-bd {
+		&.title {
+			font-size: 15px;
+			white-space: normal;
+			display: block;
+    		margin: 10px 0;
+		}
+	    font-size: 12px;
+	    color: #323232;
+		line-height: 1;
+		label {
+			display: inline-block;
+		    width: 56px;
+		    text-align: justify;
+		    text-align-last: justify;
+		    -khtml-text-align-last: justify;
+		    -moz-text-align-last: justify;
+		    text-align: right;
+		}
+	}
+	&-fd {
+		font-size: 12px;
+		color: #a1a1a1;
+		line-height: 1;
+		label {
+			display: inline-block;
+		    width: 56px;
+		    text-align: justify;
+		    text-align-last: justify;
+		    text-align: right;
+		}
+	}
+	&-st {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		font-size: 12px;
+		margin-top: 5px;
+		> span {
+			svg {
+				vertical-align: text-bottom;
+			}
+		}
+	}
+	&-operate {
+		display: inline-block;
+		position: absolute;
+    	right: 3px;
+    	bottom: 11px;
+	}
+}
