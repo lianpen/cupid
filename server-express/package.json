@@ -9,8 +9,9 @@
   "author": "lianpen",
   "license": "ISC",
   "dependencies": {
+    "@mysql/xdevapi": "8.0.17",
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
-    "mysql": "^2.16.0"
+    "mysql": "^2.17.1"
   }
 }
