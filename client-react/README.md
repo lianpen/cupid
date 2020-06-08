@@ -1,7 +1,6 @@
-## npm-2.4-wechat
+## cupid react
 
-湖北群艺积分制2.4 微信端项目
+丘比特 react端
 
-2018.6.5
 
 lianpen
